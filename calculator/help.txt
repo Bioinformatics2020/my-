@@ -1,0 +1,46 @@
+作者：张行  邮箱：2252313806@qq.com  github:https://github.com/Bioinformatics2020 语言：c++ 
+;
+主界面输入选项：help 查看帮助
+history 历史记录
+0或exit 退出计算器
+common 科学计算器
+date 日期计算器
+bigNum 大数计算器
+programmer 程序计算器
+company 单位换算器
+;
+1.程序员计算器：
+数字10进制形式下的按位操作(&、|、^、>、<)、(、)、+、-、*、/、%
+more n n set设置输入的进制
+more n n number任意进制转换
+;
+2.科学计算器说明：
+string:直接计算 (、)、+、-、*、/、%、x^y、fac(x)：阶乘、abs(x)：绝对值、sqrt(x)：开平方、cbrt(x)：开立方、hypot(x,y)：平方和的平方根、loge(x)：e为底的对数函数、log2(x)：2为底的对数函数、log10(x)：10为底的对数、sin(x)：正弦、cos(x)：余弦、tan(x)：正切、arcsin(x)：反正弦、arccos(x)：反余弦、arctan(x)：反正切、p(n,r)：排列、c(n,r)：组合、e(自然常数近似值)、pi(派近似值)、ans(上次运算结果)、[A-Z](自定义预设值)
+batch inFileName outFileName:批处理
+more set mode:统计计算模式，mode:1 输入多个x(逗号分开),2 输入多个x y组(逗号分开),0 清空数据,……
+more A-Z number:设置预设值
+;
+3.大数计算器支持：
+string:直接计算 (、)、+、-、*、/、x^y
+;
+4.日期计算器说明：
+i/interval date1 [date2]:日期间隔仅年月日，无time2则为现在(1970/1/2-2070/1/1)
+v/vary yyyy.mm.dd +/- dd:向前或向后多天(1970/1/2-2070/1/1)
+n/now:查看当前时间
+s/sign:查看星座
+c/calendar [yyyy]:查看指定年份日历无yyyy为本年
+;
+5.单位换算器说明：选项 mode(从) mode(到) 数据
+a:数据长度 mode:a bit,b Byte,c KB,d MB,e GB,f TB,g PB,h EB,i ZB,g YB,k BB
+b:角度 mode:a 秒,b 分,c 度,d 弧度,e 百分度
+c:容量/体积 mode:a 立方米,b 立方分米/升,c 立方厘米/毫升,d 立方毫米/微升,e 公制汤勺,f 公制调羹,g 美制桶,h 美制加仑,i 美制夸脱,j 美制品脱,k 美制汤匙,l 美制茶匙,m 英制桶,n 英制加仑,o 英制夸脱,p 英制品脱,q 英制汤匙,r 英制茶匙,s 立方码,t 立方英尺,u 立方英寸
+d:质量 mode:a 吨,b 千克/公斤,c 克,d 毫克,e 微克,f 担,g 斤,h 两,i 钱,j 磅,k 盎司,l 克拉,m 分(钻石)
+e:长度 mode:a 纳米,b 微米,c 毫米,d 厘米,e 分米,f 米,g 海里,h 千米/公里,i 里,j 丈,k 尺,l 寸,m 分,n 厘,o 英里,p 码,q 英尺,r 英寸,s 秒差距,t 天文单位,u 光年
+f:面积 mode:a 平方公里,b 公顷,c 市亩,d 平方米,e 平方厘米,f 平方毫米,g 平方英里,h 英亩,i 平方英尺,j 平方英寸
+g:时间 mode:a 世纪,b 年,c 周,d 日,e 时,f 分,g 秒,h 毫秒,i 微秒,j 纳秒,k 时辰,l 刻
+h:温度 mode:a 华氏度,b 摄氏度,c 开尔文
+i:能量/热量/功 mode:a 千瓦时/度,b 焦耳/牛米,c 食物卡路里
+j:速度 mode:a 马赫,b 米每秒,c 节,d 公里每小时/码
+k:功率 mode:a 千瓦,b 瓦,c 公制马力
+l:压强 mode:a 大气压,b 巴,c 千帕,d 毫米汞柱
+;

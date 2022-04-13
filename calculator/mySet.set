@@ -1,0 +1,5 @@
+Date timeFormat %T
+Date dateFormat %Y/%m/%d
+His timeFormat %T
+His dateFormat %Y/%m/%d
+His sizeMax 10485760
